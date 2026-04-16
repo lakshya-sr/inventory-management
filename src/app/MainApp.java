@@ -45,9 +45,6 @@ public class MainApp {
         }
     }
 
-    // =========================
-    // PRODUCT
-    // =========================
     private static void addProduct() throws Exception {
         sc.nextLine(); // consume newline
         System.out.print("Enter product name: ");
@@ -62,9 +59,6 @@ public class MainApp {
         System.out.println("✅ Product added!");
     }
 
-    // =========================
-    // SUPPLIER
-    // =========================
     private static void addSupplier() throws Exception {
         sc.nextLine();
         System.out.print("Enter supplier name: ");
@@ -79,9 +73,6 @@ public class MainApp {
         System.out.println("✅ Supplier added!");
     }
 
-    // =========================
-    // PURCHASE
-    // =========================
     private static void makePurchase() throws Exception {
         System.out.print("Enter supplier ID: ");
         int supplierId = sc.nextInt();
@@ -102,9 +93,6 @@ public class MainApp {
         System.out.println("✅ Purchase completed!");
     }
 
-    // =========================
-    // SALE
-    // =========================
     private static void makeSale() throws Exception {
         System.out.print("Enter product ID: ");
         int productId = sc.nextInt();
@@ -122,9 +110,6 @@ public class MainApp {
         System.out.println("✅ Sale completed!");
     }
 
-    // =========================
-    // STOCK
-    // =========================
     private static void viewStock() throws Exception {
         System.out.print("Enter product ID: ");
         int productId = sc.nextInt();
